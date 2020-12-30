@@ -61,6 +61,15 @@ class DigitPainter:
             x, y = x // settings.CELL_SIZE, y // settings.CELL_SIZE
             self.board.draw_cell(x, y)
 
+            if x - 1 >= 0:
+                self.board.draw_cell(x - 1, y)
+            if x + 1 < settings.WIDTH_CELL_NUMBER:
+                self.board.draw_cell(x + 1, y)
+            if y - 1 >= 0:
+                self.board.draw_cell(x, y - 1)
+            if y + 1 < settings.HEIGHT_CELL_NUMBER:
+                self.board.draw_cell(x, y + 1)
+
 
 def main():
     painter = DigitPainter()
