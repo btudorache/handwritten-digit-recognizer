@@ -26,7 +26,7 @@ model.compile(optimizer='adam',
               loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
               metrics=['sparse_categorical_accuracy'])
 
-model.fit(x_train, y_train, epochs=7)
+model.fit(x_train, y_train, epochs=4)
 model.evaluate(x_test,  y_test, verbose=2)
 
 model.save('model')
