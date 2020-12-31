@@ -23,7 +23,7 @@ The model has a **~99% accuracy** on the *MNIST testset (10.000 samples)*.
 Clone the repository locally. Optionally use a virtual env:
 ```
 python3 -m venv venv         # create venv
-source venv/bin/activate    # activate venv
+source venv/bin/activate     # activate venv
 ```
 
 Install the requirements:
