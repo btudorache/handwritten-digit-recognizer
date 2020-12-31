@@ -33,7 +33,7 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-Test the actual trained model:
+Test the actual trained model. You can also see which images were incorrectly labelled on the testset:
 ```
 python3 testModel.py
 ```
