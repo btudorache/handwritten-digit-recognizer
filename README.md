@@ -8,9 +8,9 @@ The model has a **~99% accuracy** on the *MNIST testset (10.000 samples)*.
 
 ## Requirements
 
-**Python 3.8.0** and **pip3** are required for installing the requirements. Main packages used:
+**Python 3.8.0** and **pip version > 19.0** are required for installing the requirements. Main packages used:
 
-* Tensorflow
+* Tensorflow2
 
 * Matplotlib
 
