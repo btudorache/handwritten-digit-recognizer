@@ -52,4 +52,10 @@ python3 createModel.py
 
 ## Media
 
+Drawing and tesing a 2:
+![2_drawing](https://github.com/btudorache/handwritten-digit-recognizer/blob/master/readme_media/2_drawing.PNG)
+
+Drawing and testing a 5:
+![5_drawing](https://github.com/btudorache/handwritten-digit-recognizer/blob/master/readme_media/5_drawing.PNG)
+
 
