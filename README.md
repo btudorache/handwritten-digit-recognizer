@@ -1,8 +1,7 @@
 # Handwritten Digit Recognizer 
 
 Implementation of a digit drawer and recognition software for numbers 0 through 9. It uses a Convolutional Neuronal Network model implemented in **tensorflow** 
-and trained on the *MNIST dataset*. The architecture of the network is taken [from this paper](https://core.ac.uk/download/pdf/231148505.pdf) 
-studying the problem of digit recognition.
+and trained on the *MNIST dataset*. The architecture of the network is a classic CNN one, with convolution and pooling layers connected to a final 10 node layer, one for each of the 10 digits.
 
 The model has a **~99% accuracy** on the *MNIST testset (10.000 samples)*.
 
